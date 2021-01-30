@@ -1,5 +1,61 @@
+body {
+    text-align: center;
+}
+html {
+    scroll-behavior: smooth;
+}
 #myNavbar {
     position: sticky;
     top: 0;
     z-index: 99999;
+}
+.mvhead{
+    font-size: 70px;
+    border-radius: 10px;
+    padding: 6px 22px;
+    margin: 20px 90px;
+    width: 90%;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.mvhead i{
+    float: right;
+}
+.mvpr img{
+    height: 300px;
+    width: 300px;
+    margin-top: 50px; 
+    margin-left: 50px;   
+}
+.mvpr span{
+    color:gold;
+}
+.mvpr p{
+    color: rgb(18, 20, 143);
+    font-size: 30px;
+    padding: 0px 70px;
+    font-weight: bold;
+}.Movies {
+    font-size: 70px;
+    color: #9195dc;
+    font-family: 'Nerko One', cursive;
+}
+#line {
+    border-top: 20px;
+    border-radius: 5px;
+    width: 250px;
+    border-style: solid;
+    border-color: #EF8354;
+}
+  .vg_img {
+    height: 500px;
+    transition: transform .2s;
+}
+.vg_img:hover{
+    transform: scale(0.9);
+}
+#sec2 {
+    
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
